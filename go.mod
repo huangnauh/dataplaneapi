@@ -13,17 +13,17 @@ require (
 	github.com/dustinkirkland/golang-petname v0.0.0-20231002161417-6a283f1aaaf2
 	github.com/fsnotify/fsnotify v1.6.0
 	github.com/getkin/kin-openapi v0.120.0
-	github.com/go-openapi/errors v0.20.4
-	github.com/go-openapi/loads v0.21.2
+	github.com/go-openapi/errors v0.21.0
+	github.com/go-openapi/loads v0.21.3
 	github.com/go-openapi/runtime v0.26.0
-	github.com/go-openapi/spec v0.20.9
-	github.com/go-openapi/strfmt v0.21.7
-	github.com/go-openapi/swag v0.22.4
-	github.com/go-openapi/validate v0.22.1
+	github.com/go-openapi/spec v0.20.13
+	github.com/go-openapi/strfmt v0.21.10
+	github.com/go-openapi/swag v0.22.6
+	github.com/go-openapi/validate v0.22.4
 	github.com/google/renameio v1.0.1
-	github.com/google/uuid v1.3.1
+	github.com/google/uuid v1.5.0
 	github.com/haproxytech/client-native/v5 v5.0.2
-	github.com/haproxytech/config-parser/v5 v5.0.1-0.20230821131853-5878ad7f5340
+	github.com/haproxytech/config-parser/v5 v5.0.1-0.20231205133436-67d880c8f163
 	github.com/jessevdk/go-flags v1.5.0
 	github.com/json-iterator/go v1.1.12
 	github.com/lestrrat-go/apache-logformat v0.0.0-20210106032603-24d066f940f8
@@ -33,7 +33,7 @@ require (
 	github.com/sirupsen/logrus v1.9.3
 	github.com/stretchr/testify v1.8.4
 	golang.org/x/net v0.17.0
-	golang.org/x/sys v0.13.0
+	golang.org/x/sys v0.15.0
 	gopkg.in/yaml.v2 v2.4.0
 )
 
@@ -50,9 +50,9 @@ require (
 	github.com/aws/smithy-go v1.15.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/go-ole/go-ole v1.3.0 // indirect
-	github.com/go-openapi/analysis v0.21.4 // indirect
-	github.com/go-openapi/jsonpointer v0.20.0 // indirect
-	github.com/go-openapi/jsonreference v0.20.2 // indirect
+	github.com/go-openapi/analysis v0.22.0 // indirect
+	github.com/go-openapi/jsonpointer v0.20.2 // indirect
+	github.com/go-openapi/jsonreference v0.20.4 // indirect
 	github.com/gofrs/flock v0.8.1 // indirect
 	github.com/google/go-cmp v0.6.0 // indirect
 	github.com/haproxytech/go-logger v1.1.0 // indirect
@@ -70,10 +70,11 @@ require (
 	github.com/perimeterx/marshmallow v1.1.5 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/rogpeppe/go-internal v1.9.0 // indirect
 	github.com/tklauser/go-sysconf v0.3.12 // indirect
 	github.com/tklauser/numcpus v0.6.1 // indirect
 	github.com/yusufpapurcu/wmi v1.2.3 // indirect
-	go.mongodb.org/mongo-driver v1.12.1 // indirect
+	go.mongodb.org/mongo-driver v1.13.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace github.com/haproxytech/client-native/v5 v5.0.2 => github.com/huangnauh/client-native/v5 v5.0.3-fix
